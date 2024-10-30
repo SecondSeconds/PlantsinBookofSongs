@@ -1,0 +1,335 @@
+@startuml
+class com.example.plantsinbookofsongs.data.PoemProvider {
++  zhounanList
++  shaonanList
++ List<Poem> getPoemList(Int)
++ Poem? getPoem(Int,Int)
++ String getPoemSynopsis(Int,Int)
++ String getPoemSynopsisPinyin(Int,Int)
+}
+
+
+class com.example.plantsinbookofsongs.utils.ControlPermission$Companion {
++ Boolean checkImagePermission(Context)
++ Boolean checkCameraPermission(Context)
+}
+
+class com.example.plantsinbookofsongs.utils.ControlPermission {
+}
+class com.example.plantsinbookofsongs.vm.SentenceViewModel {
+- Resources resources
+- Array<String> sentences
+- Array<String> urls
+- Array<String> names
+- Array<String> Intro
+-  _sentence
++ State<String> sentence
+-  _plantName
++ State<String> plantName
+-  _plantIntro
++ State<String> plantIntro
+-  _sentenceNumber
++ State<Int> sentenceNumber
+-  _plantImageUrl
++ State<String> plantImageUrl
++ void initializeSentence()
++ void changeSentence()
+}
+
+
+class com.example.plantsinbookofsongs.vm.FoundPoemViewModel {
+-  poemData
+-  _result
++ State<String> result
++ void getFoundResult(String)
+}
+
+
+class com.example.plantsinbookofsongs.service.WebService$Companion {
++  baseUrl
++ WebService service
+}
+
+interface com.example.plantsinbookofsongs.service.WebService {
++ void getAccessToken(void)
++ void getRecognitionResultByUrl(void)
++ void getFullRecognitionResultByUrl(void)
++ void getRecognitionResultByImage(void)
++ void getFullRecognitionResultByImage(void)
+}
+
+interface com.example.plantsinbookofsongs.dao.UserDataDao {
++ Long addUser(UserData)
++ void deleteUser(UserData)
++ UserData findUserById(Long)
++ void clear()
++ List<UserData> getAll()
+}
+
+class com.example.plantsinbookofsongs.vm.PlantClassifyViewModel {
+-  _plantResult
++ State<String> plantResult
+-  _plantImage
++ State<Bitmap> plantImage
+-  _plantDescription
++ State<String> plantDescription
+-  _DescriptionButton
++ State<Boolean> DescriptionButton
+- String Description
++ void getRecognitionResultByImage(Bitmap)
+- String getAcessToken(String,String,String)
++ void showDesciption()
+- Boolean isErrorResponse(String)
+- Int extractErrorCode(String)
+- String getPlantToken(String)
+- String getPlantResult(String)
+- String getPlantDescription(String)
+}
+
+
+class com.example.plantsinbookofsongs.destination.BottomDestination {
+}
+class com.example.plantsinbookofsongs.destination.Meet {
+}
+class com.example.plantsinbookofsongs.destination.Found {
+}
+class com.example.plantsinbookofsongs.destination.AI {
+}
+class com.example.plantsinbookofsongs.destination.User {
+}
+class com.example.plantsinbookofsongs.destination.Visitor {
+}
+class com.example.plantsinbookofsongs.state.LoginManager {
+-  isLoggedIn
+- UserData userdata
++ void saveLoginStatus(Boolean)
++ void saveUser(UserData)
++ void getLoginStatus()
++ void getUser()
+}
+
+
+class com.example.plantsinbookofsongs.destination.UserDestination$User {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination$Visitor {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination$Login {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination$Register {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination$Set {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination$Star {
+}
+class com.example.plantsinbookofsongs.destination.UserDestination {
+}
+class com.example.plantsinbookofsongs.db.null {
+}
+class com.example.plantsinbookofsongs.db.null {
+}
+class com.example.plantsinbookofsongs.db.UserDatabase$Companion {
+- UserDatabase? db
++ UserDatabase getDatabase(Application)
+}
+
+
+abstract class com.example.plantsinbookofsongs.db.UserDatabase {
++ UserDataDao userDataDao()
++ StarDataDao starDataDao()
+}
+
+class com.example.plantsinbookofsongs.entity.UserData {
+}
+class com.example.plantsinbookofsongs.destination.FoundDestination$Found {
+}
+class com.example.plantsinbookofsongs.destination.FoundDestination$Detail {
++ void createRoute(Int)
+}
+
+class com.example.plantsinbookofsongs.destination.FoundDestination$Poem {
++ void createRoute(Int,Int)
+}
+
+class com.example.plantsinbookofsongs.destination.FoundDestination {
+}
+class com.example.plantsinbookofsongs.data.Poem {
+}
+class com.example.plantsinbookofsongs.helper.DbHelper {
++ UserData createExampleUserData()
+}
+
+class com.example.plantsinbookofsongs.data.PoemData {
++  PoemData
++ Map<String,String> getPoem()
+}
+
+
+class com.example.plantsinbookofsongs.data.CategoryProvider {
++  CourtList
++  HymnList
++  EulogyList
++ Category? getCategory(Int)
++ String getCategorySynopsis(Int)
+}
+
+
+interface com.example.plantsinbookofsongs.dao.StarDataDao {
++ Long addStar(StarData)
++ void deleteStar(StarData)
++ void cancelStar(Long,Long)
++ List<StarData> findStarDataById(Long)
++ void clear()
++ List<StarData> getAll()
+}
+
+class com.example.plantsinbookofsongs.entity.null {
+}
+class com.example.plantsinbookofsongs.entity.StarData {
+}
+class com.example.plantsinbookofsongs.data.Category {
+}
+class com.example.plantsinbookofsongs.vm.RegisterViewModel {
+- UserDatabase db
+- UserDataRepository userDataRepository
++  isRegister
+-  _userName
++ State<String> userName
+-  _enrollword
++ State<String> enrollword
+-  _confirmword
++ State<String> confirmword
+-  _info
++ State<String> info
++ void addUser()
+- Boolean checkWord()
+- Boolean checkNull()
++ void updateUserName(String)
++ void updateEnrollWord(String)
++ void updateConfirmWord(String)
+}
+
+
+class com.example.plantsinbookofsongs.vm.ShowViewModel {
+- UserDatabase db
+- UserDataRepository userDataRepository
+-  isLogin
+- Resources resources
+- Array<String> sentences
+- Array<String> plantName
+-  _starList
++ List<State<String>> starList
++ void getStarList()
+}
+
+
+class com.example.plantsinbookofsongs.repository.UserDataRepository {
++ Long addUserData(UserData)
++ UserData findUser(Long)
++ Long addStar(StarData)
++ void cancelStar(Long,Long)
++ List<StarData> findStarList(Long)
++ List<Long> findStarIdList(Long)
++ void clearStar()
++ void clearUser()
++ List<StarData> getAllStar()
++ List<UserData> getAllUser()
+}
+
+class com.example.plantsinbookofsongs.MainActivity {
++ void onCreate(Bundle?)
+}
+
+class com.example.plantsinbookofsongs.utils.ConvertImage$Companion {
++ String? resizeImage(Bitmap,Double)
++ String? BitmapToString(Bitmap)
+}
+
+class com.example.plantsinbookofsongs.utils.ConvertImage {
+}
+class com.example.plantsinbookofsongs.utils.NavStatusViewModel {
+-  _shouldShowBottomNavigation
++ State<Boolean> shouldShowBottomNavigation
++ void hideBottomNavigation()
++ void showBottomNavigation()
+}
+
+
+class com.example.plantsinbookofsongs.vm.StarViewModel {
+- UserDatabase db
+- UserDataRepository userDataRepository
+-  isLogin
+-  _info
++ State<String> info
++ void addStar(Int)
+}
+
+
+class com.example.plantsinbookofsongs.state.RegisterManager {
+-  isRegistered
+- UserData userdata
++ void saveRegisterStatus(Boolean)
++ void saveUser(UserData)
++ void getRegisterStatus()
++ void getUser()
+}
+
+
+class com.example.plantsinbookofsongs.ui.theme.ColorFamily {
+}
+class com.example.plantsinbookofsongs.vm.LoginViewModel {
+- UserDatabase db
+- UserDataRepository userDataRepository
+-  isLogin
+-  _userId
++ State<Long> userId
+-  _password
++ State<String> password
+-  _info
++ State<String> info
++ void findUser()
+- Boolean checkNull()
++ void updateUserId(Long)
++ void updateUserPassword(String)
+}
+
+
+
+
+com.example.plantsinbookofsongs.utils.ControlPermission +.. com.example.plantsinbookofsongs.utils.ControlPermission$Companion
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.SentenceViewModel
+androidx.lifecycle.ViewModel <|-- com.example.plantsinbookofsongs.vm.FoundPoemViewModel
+com.example.plantsinbookofsongs.service.WebService +.. com.example.plantsinbookofsongs.service.WebService$Companion
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.PlantClassifyViewModel
+com.example.plantsinbookofsongs.destination.BottomDestination <|-- com.example.plantsinbookofsongs.destination.Meet
+com.example.plantsinbookofsongs.destination.BottomDestination <|-- com.example.plantsinbookofsongs.destination.Found
+com.example.plantsinbookofsongs.destination.BottomDestination <|-- com.example.plantsinbookofsongs.destination.AI
+com.example.plantsinbookofsongs.destination.BottomDestination <|-- com.example.plantsinbookofsongs.destination.User
+com.example.plantsinbookofsongs.destination.BottomDestination <|-- com.example.plantsinbookofsongs.destination.Visitor
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$User
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$User
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$Visitor
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$Visitor
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$Login
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$Login
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$Register
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$Register
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$Set
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$Set
+com.example.plantsinbookofsongs.destination.UserDestination +.. com.example.plantsinbookofsongs.destination.UserDestination$Star
+com.example.plantsinbookofsongs.destination.UserDestination <|-- com.example.plantsinbookofsongs.destination.UserDestination$Star
+com.example.plantsinbookofsongs.db.UserDatabase +.. com.example.plantsinbookofsongs.db.UserDatabase$Companion
+androidx.room.RoomDatabase <|-- com.example.plantsinbookofsongs.db.UserDatabase
+com.example.plantsinbookofsongs.destination.FoundDestination +.. com.example.plantsinbookofsongs.destination.FoundDestination$Found
+com.example.plantsinbookofsongs.destination.FoundDestination <|-- com.example.plantsinbookofsongs.destination.FoundDestination$Found
+com.example.plantsinbookofsongs.destination.FoundDestination +.. com.example.plantsinbookofsongs.destination.FoundDestination$Detail
+com.example.plantsinbookofsongs.destination.FoundDestination <|-- com.example.plantsinbookofsongs.destination.FoundDestination$Detail
+com.example.plantsinbookofsongs.destination.FoundDestination +.. com.example.plantsinbookofsongs.destination.FoundDestination$Poem
+com.example.plantsinbookofsongs.destination.FoundDestination <|-- com.example.plantsinbookofsongs.destination.FoundDestination$Poem
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.RegisterViewModel
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.ShowViewModel
+androidx.activity.ComponentActivity <|-- com.example.plantsinbookofsongs.MainActivity
+com.example.plantsinbookofsongs.utils.ConvertImage +.. com.example.plantsinbookofsongs.utils.ConvertImage$Companion
+androidx.lifecycle.ViewModel <|-- com.example.plantsinbookofsongs.utils.NavStatusViewModel
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.StarViewModel
+androidx.lifecycle.AndroidViewModel <|-- com.example.plantsinbookofsongs.vm.LoginViewModel
+@enduml

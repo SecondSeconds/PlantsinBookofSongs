@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Plants in Book of Songs</string>
+    <string-array name="Sentences">
+        <item>苕之华，其叶青青。\n知我如此，不如无生。\n——《小雅·苕之华》</item>
+        <item>采采卷耳，不盈顷筐，\n嗟我怀人，寘彼周行。\n——《周南·卷耳》</item>
+        <item>山有扶苏，隰有荷华。\n——《郑风·山有扶苏》</item>
+        <item>出其闉阇，有女如荼。\n虽则如荼，匪我思且。\n缟衣茹藘，聊可与娱。\n——《国风·郑风·出其东门》</item>
+        <item>摽有梅，顷筐塈之。\n求我庶士，迨其谓之。\n——《召南·摽有梅》</item>
+        <item>蔽芾甘棠，勿剪勿伐，召伯所茏。\n——《召南·甘棠》</item>
+        <item>野有死麋，白茅包之。\n有女怀春，吉士诱之。\n——《召南·.野有死麋》</item>
+        <item>参差荇菜，左右流之。\n窈窕淑女，寤寐求之。\n——《周南·关雎》</item>
+        <item>籊籊竹竿，以钓于淇。\n岂不尔思?远莫致之。\n——《卫风·竹竿》</item>
+        <item>芄兰之支，童子佩觿。\n虽则佩觿，能不我知。\n——《卫风·芄兰》</item>
+        <item>投我以木瓜，报之以琼琚。\n匪报也，永以为好也! \n——《卫风·木瓜》</item>
+        <item>有女同车，颜如舜华。\n将翱将翔，佩玉琼琚。\n——《郑风·有女同车》</item>
+        <item>扬之水，不流束蒲。\n彼其之子，不与我戍许。\n——《王风·扬之水》</item>
+        <item>葛生蒙楚，蔹蔓于野。\n予美亡此，谁与独处？\n——《诗经·唐风·葛生》</item>
+        <item>桃之夭夭，灼灼其华。\n之子于归，宜其室家。\n——《国风·周南·桃夭》</item>
+        <item>蒹葭苍苍，白露为霜。\n所谓伊人，在水一方。\n——《国风·秦风·蒹葭》</item>
+        <item>彼黍离离，彼稷之苗。\n行迈靡靡，中心摇摇。\n——《国风·王风·黍离》</item>
+        <item>彼采艾兮，一日不见，如三岁兮。\n——《王风·采葛》</item>
+        <item>山有榛，隰有苓。\n云谁之思?西方美人。\n——《邶风·简兮》</item>
+        <item>匏有苦叶，济有深涉。\n深则厉，浅则揭。\n——《邶风·匏有苦叶》</item>
+        <item>梧桐生矣，于彼朝阳。——《诗经·卷阿》</item>
+        <item>呦呦鹿鸣，食野之苹。——《诗经·鹿鸣》</item>
+        <item>如松柏之茂，无不尔或承。——《诗经·天保》</item>
+        <item>黍稷稻粱，农夫之庆。报以介福，万寿无疆。——《诗经·甫田》</item>
+
+
+    </string-array>
+
+    <string-array name="PlantImage">
+        <item>https://bkimg.cdn.bcebos.com/pic/b7003af33a87e950352ac709546f4443fbf2b2111e05?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/0824ab18972bd40735fa31628ac189510fb30f24a351?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/a686c9177f3e6709dda7d8623ac79f3df9dc5583?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/aa64034f78f0f736afc32de08003a419ebc4b645b58e?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/8697397f9843fb5b29388a65?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/77094b36acaf2edda3cc5bb6ba4716e93901213f356f?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/1e30e924b899a9014c082e79d9c31d7b02087bf45f7f?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/bd315c6034a85edf8db1e80128031e23dd54564edfc0?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a82b90122dd775b648da9773912420f?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/9d82d158ccbf6c81800a433f8b69a63533fa838bea97?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/4b90f603738da97739123c25ef09ef198618367a453e?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/e824b899a9014c086e06e712013215087bf40ad15e78?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/e824b899a9014c08314ca2210a7b02087bf4f43b?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/d1160924ab18972bd4073682229b6c899e510fb39c67?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d3fd1f100cdf46274e251f95caf22d?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/0df3d7ca7bcb0a46f3f3864b6163f6246a60afea?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/6609c93d70cf3bc79f3db2678c58ada1cd11738bfcba?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/9a504fc2d5628535211352f39eef76c6a6ef6375?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/0bd162d9f2d3572c11df4af7a144742762d0f70365da?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/6a63f6246b600c338744ebd42a1b460fd9f9d72a0b2a?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+        <item>https://bkimg.cdn.bcebos.com/pic/7acb0a46f21fbe096b6310b52d371b338744ebf80740?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080</item>
+    </string-array>
+
+    <string-array name="PlantName">
+        <item>苕</item>
+        <item>卷耳</item>
+        <item>荷华</item>
+        <item>茹藘</item>
+        <item>梅</item>
+        <item>甘棠</item>
+        <item>白茅</item>
+        <item>荇菜</item>
+        <item>竹</item>
+        <item>芄兰</item>
+        <item>木瓜</item>
+        <item>舜华</item>
+        <item>蒲</item>
+        <item>葛藤</item>
+        <item>桃</item>
+        <item>芦苇</item>
+        <item>黍</item>
+        <item>艾</item>
+        <item>茯苓</item>
+        <item>匏</item>
+        <item>梧桐</item>
+    </string-array>
+
+    <string-array name="PlantIntro">
+        <item>凌霄。别名紫葳、倒挂金钟、藤罗花。落叶攀援藤本，茎木质，表皮脱落，枯褐色，以气生根攀附于它物之上。花期5-8月。</item>
+        <item>卷耳，又名苍耳，石竹科卷耳属，一年生或二年生草本，高约三十公分，全株被细毛。叶对生，呈长卵形，春夏间开白色小花，果实为圆柱形蒴果，嫩叶可供食用。</item>
+        <item>荷华，荷花。作为荷花故乡的中国，有着让中国人感到骄傲的独特的荷文化。荷花的身份，在自然、社会、艺术各个领域里，都有它独特的标识含义。</item>
+        <item>茜草。茜草四五月发新芽，之后长绿叶，九十月间，在丛林坡地上，开不起眼的小黄花，子实之后，霜秋时节，在寒土冻地里，挖出根须，净土，晾干，研磨成粉，发酵，然后便可以将巧妇手织成的白色丝绵布，浸入茜草的染缸，染成自然界里最强悍的一种颜色——红色。</item>
+        <item>梅，即梅子，《诗经》里的梅，从收获的情形看，指的该是可以入药的梅果。\n梅在汉语里的发音为去声，轻声吟读，有温软含骨，刚柔相济的意味。自然里属于蔷薇科的梅，喜沿长江而居，早寒春上，雪影茫茫中，星花初现，粉白嫣红，是长冬渐暖时，四季最先露出的迷人风韵。</item>
+        <item>甘棠，指的是山野梨，又叫棠梨，大概拇指和食指圈在一起，就是一个棠梨的大小了，长在山坡土凹里的棠梨，春天会开出美丽雪白的花，夏末时分，棠梨刚刚成熟时，挂在枝头一丛一丛的，土褐色，放嘴里吃的时候，酸甜酸甜的，而且核大肉少，吃起来有很沙的感觉。</item>
+        <item>白茅，白茅属多年生草本，长根状茎粗壮，春生芽，花苞时期的花穗称为谷荻，布地如针;根茎白茅根可入药，具有凉血、止血等功效。</item>
+        <item>先秦时期,人们将荇菜等水草看作纯洁之物,用以祭祀。荇菜是睡菜科荇菜属的多年生水生草本植物。茎圆柱形，多分枝，密生褐色斑点；叶片飘浮，近革质，圆形或卵圆形；花常多数，簇生节上，花冠金黄色，冠筒短；蒴果无柄，椭圆形，种子大，褐色，椭圆形。</item>
+        <item>竹，为禾本科、竹属的多年生草本植物，茎多为木质，也有草质，中间稍空，有节且多而密，正常高5-10米，有的甚至可达40多米；竹叶呈狭披针形，叶面深绿色；竹子花像稻穗，主色为黄色；花期一般是5月，果期10月。</item>
+        <item>芄兰,亦名女青，荚实倒垂如锥形。\n草本植物，又名萝藦，俗名婆婆针线包，实如羊角。植物世界里的芄兰，则是有对生的心脏般的绿叶，延续生命姿态的是蔓生的柔韧的躯体——植物学里，它属于藤本，又有叫“萝藦”的充满了禅意的好名字。</item>
+        <item>木瓜，花期4月，果期9-10月。</item>
+        <item>舜华，即木槿，锦葵科木槿属落叶灌木，树木高大，小枝上有黄色星状绒毛，叶菱形卵状，托叶线形且有柔毛；花单生于枝端叶腋间，花萼和花均为钟形，花淡紫色，倒卵形，外面有纤毛和星状长柔毛；果实卵圆形，有黄色星状绒毛；种子肾形，背部有黄白色长柔毛；花期7~10月。</item>
+        <item>蒲在史料里有两种解释，一为蒲草，植物学上称为菖蒲，又名剑水草，俗名蒲草;一种解释为蒲柳，多种在河边住宅周围，又名水杨。此处展示菖蒲图片。</item>
+        <item>葛，豆科葛属多年生草质藤本植物，根较粗，嫩白色，有须毛，表面光滑；叶子较小，深绿色，成熟时退落，呈椭圆形；花朵较小，呈蝴蝶状，表面有小绒毛，淡紫色；种子呈圆球形，黑褐色，外皮较硬；花期4-8月，果期8-10月。</item>
+        <item>桃，蔷薇科、桃属植物。是一种果实作为水果的落叶小乔木。花可以观赏，果实多汁，可以生食或制桃脯、罐头等，核仁也可以食用。</item>
+        <item>葭，指初生的芦苇。多年水生或湿生的高大禾草，根状茎十分发达。芦叶、芦花、芦茎、芦根、芦笋均可入药。</item>
+        <item>黍，禾本科黍属一年生草本植物。 “粳者”古称稷、穄，现称稷子、糜子;“糯者”古称黍，现称黍子、粘糜子或黄粟。一种早熟、耐旱的粮食和饲料作物。</item>
+        <item>别名香艾、艾草等。多年生草本或略成半灌木状，植株有浓烈香气。民间常用作拔火罐的燃料用以治疗风湿病。</item>
+        <item>苓，亦作蘦，即甘草。甘草为多年生草本，根部具甜味，因而也被叫做甜草，但在《尔雅·释草》和《毛诗故训传》中都说：“苓，大苦。”所以到朱熹的时代，“大苦”已经演变成了苓的别名。</item>
+        <item>匏，一年生攀援草本，其实就是我们常说的葫芦。葫芦幼嫩时可作菜食，成熟后外壳木质化，中空，可作各种器皿。</item>
+        <item>锦葵科梧桐属落叶乔木。梧桐树皮青绿色，平滑；叶心形，叶柄与叶片等长；花为圆锥花序顶生，花色淡黄；果为蓇葖果膜质，有柄；种子球形，有绉纹；花期6月。</item>
+    </string-array>
+
+    <string name="ZhouNan">武王灭商后，地域扩大，为加强统治力量，西周初期周成王时代，周公姬旦和召公姬奭分陕(今河南陕县)而治。“召公既相宅，周公往营成周。”(《尚书·洛诰》)陕县以东为周公管理，周公居东都洛邑(即成周)，统治东方诸侯。\n《周南》当是周公统治下的南方地区的民歌，范围包括洛阳(其北限在黄河)以南，直到江汉一带地区，具体地方包括今河南西南部及湖北西北部。由于采集地域广阔，又不便各自为编，故统称“南”以示南国之诗。</string>
+    <string name="ShaoNan">国风·召南，《诗经》十五国风之一，为先秦时代召南地方民歌，共十四篇，召南指召公统治的南方地域。</string>
+
+
+    <string name="GuanJu">关关雎鸠，在河之洲。\n窈窕淑女，君子好逑。\n参差荇菜，左右流之。\n窈窕淑女，寤寐求之。\n求之不得，寤寐思服。\n悠哉悠哉，辗转反侧。\n参差荇菜，左右采之。\n窈窕淑女，琴瑟友之。\n参差荇菜，左右芼之。\n窈窕淑女，钟鼓乐之</string>
+
+    <string name="GuanJuPinYin">Guān guān jū jiū，zài hé zhī zhōu\n    关  关  雎  鸠，在  河  之  洲。\nyǎo tiǎo shū nǚ，jūn zǐhǎo qiú\n    窈  窕  淑  女，君  子  好  逑。 \n  cēn cīxìng cài，zuǒ yòu liú zhī\n    参  差  荇  菜， 左  右  流  之。\n  yǎo tiǎo shū nǚ，wù mèi qiú zhī\n    窈  窕  淑  女， 寤  寐  求  之。\n qiú zhī bù dé，wù mèi sī fú\n    求  之  不  得， 寤  寐  思  服。\n yōu zāi yōu zāi，zhǎn zhuǎn fǎn cè\n    悠  哉  悠  哉， 辗  转  反  侧。 \ncēn cī xìng cà，zuǒ yòu cǎi zhī\n    参  差  荇  菜， 左  右  采  之。\nyǎo tiǎo shū nǚ，qín qín yǒu zhī\n    窈  窕  淑  女， 琴  瑟  友  之。\ncēn cī xìng cài，zuǒ yòu mào zhī\n    参  差  荇  菜， 左  右  芼  之。\nyǎo tiǎo shū nǚ， zhōng gǔ lè zhī\n    窈  窕  淑  女，  钟  鼓  乐  之。</string>
+    <string name="GeTan">gé zhī tán xī，shī yú zhōng gǔ，wéi yè qī qī。\n葛 之 覃 兮，施 于 中 谷，维 叶 萋 萋。</string>
+<!--    <string-array name="ZhouNanPinYin">-->
+<!--        <item>Guān guān jū jiū，zài hé zhī zhōu。\n关 关 雎 鸠，在 河 之 洲。</item>-->
+<!--        <item>gé zhī tán xī，shī yú zhōng gǔ，wéi yè qī qī。\n葛 之 覃 兮，施 于 中 谷，维 叶 萋 萋。</item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--        <item> </item>-->
+<!--    </string-array>-->
+</resources>
